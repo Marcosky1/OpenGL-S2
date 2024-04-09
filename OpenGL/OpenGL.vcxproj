@@ -142,22 +142,39 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Circulo.cpp" />
+    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Color.cpp" />
+    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Cuadrado.cpp" />
+    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Cubo.cpp" />
+    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Esfera.cpp" />
+    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example1.cpp" />
+    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example2.cpp" />
+    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example3.cpp" />
+    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura.cpp" />
+    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura2D.cpp" />
+    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura3D.cpp" />
+    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Piramide.cpp" />
+    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Transform.cpp" />
+    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Triangulo.cpp" />
     <ClCompile Include="Example.cpp" />
-    <ClCompile Include="Example1.cpp" />
     <ClCompile Include="OpenGL.cpp" />
-    <ClCompile Include="Poligono.cpp" />
-    <ClCompile Include="Punto3D.cpp" />
-    <ClCompile Include="Rectangulo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Circulo.h" />
+    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Color.h" />
+    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Cuadrado.h" />
+    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Cubo.h" />
+    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Esfera.h" />
+    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example1.h" />
+    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example2.h" />
+    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example3.h" />
+    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura.h" />
+    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura2D.h" />
+    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura3D.h" />
+    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Piramide.h" />
+    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Transform.h" />
+    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Triangulo.h" />
     <ClInclude Include="Example.h" />
-    <ClInclude Include="Example1.h" />
-    <ClInclude Include="Figura.h" />
-    <ClInclude Include="FiguraGeometrica.h" />
-    <ClInclude Include="Poligono.h" />
-    <ClInclude Include="Punto.h" />
-    <ClInclude Include="Punto3D.h" />
-    <ClInclude Include="Rectangulo.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>

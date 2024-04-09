@@ -1,8 +1,5 @@
 #include "Example1.h"
 #include "IncludeGL.h"
-#include "Poligono.h" 
-#include "Punto3D.h"
-#include "Rectangulo.h"
 
 Example1::Example1() {}
 
@@ -15,19 +12,6 @@ void Example1::init() {
 
 void Example1::Render() {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); 
-
-    Rectangulo rectangulo(5.0f, 3.0f, Punto(0.0f, 0.0f));
-    rectangulo.dibujar();
-
-    Poligono poligono;
-    Punto3D punto1(1.0f, 0.0f, 0.0f);
-    Punto3D punto2(0.0f, 1.0f, 0.0f);
-    Punto3D punto3(-1.0f, 0.0f, 0.0f);
-    poligono.agregarPunto(punto1);
-    poligono.agregarPunto(punto2);
-    poligono.agregarPunto(punto3);
-    poligono.dibujar();
-
         DrawPoint();
         DrawGrid(); 
         DrawAxis();

@@ -1,2 +1,4 @@
 ﻿  Example1.cpp
-  OpenGL.vcxproj -> D:\OpenGL\Debug\OpenGL.exe
+C:\Users\Marco\Downloads\OpenGL\OpenGL\Example1.cpp(15,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\Marco\Downloads\OpenGL\OpenGL\Example1.cpp(84,25): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  OpenGL.vcxproj -> D:\GitHub\OpenGL\Debug\OpenGL.exe
