@@ -3,17 +3,26 @@
   "WorkspaceRootPath": "D:\\GitHub\\OpenGL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7955D704-FF0A-4834-8232-86B00813B857}|OpenGL\\OpenGL.vcxproj|C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Example1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7955D704-FF0A-4834-8232-86B00813B857}|OpenGL\\OpenGL.vcxproj|D:\\GitHub\\OpenGL\\OpenGL\\OpenGL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7955D704-FF0A-4834-8232-86B00813B857}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\OpenGL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7955D704-FF0A-4834-8232-86B00813B857}|OpenGL\\OpenGL.vcxproj|C:\\USERS\\MARCO\\DOWNLOADS\\OPENGL\\OPENGL\\EXAMPLE.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7955D704-FF0A-4834-8232-86B00813B857}|OpenGL\\OpenGL.vcxproj|C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Example2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7955D704-FF0A-4834-8232-86B00813B857}|OpenGL\\OpenGL.vcxproj|C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Example1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7955D704-FF0A-4834-8232-86B00813B857}|OpenGL\\OpenGL.vcxproj|C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Example2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7955D704-FF0A-4834-8232-86B00813B857}|OpenGL\\OpenGL.vcxproj|C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Circulo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7955D704-FF0A-4834-8232-86B00813B857}|OpenGL\\OpenGL.vcxproj|D:\\GitHub\\OpenGL\\OpenGL\\Example.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7955D704-FF0A-4834-8232-86B00813B857}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\Example.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7955D704-FF0A-4834-8232-86B00813B857}|OpenGL\\OpenGL.vcxproj|C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Example1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,57 +32,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Example1.cpp",
-              "DocumentMoniker": "C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Example1.cpp",
-              "ToolTip": "C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Example1.cpp",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAAIAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-09T01:51:42.079Z",
+              "DocumentIndex": 1,
+              "Title": "Example.h",
+              "DocumentMoniker": "C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Example.h",
+              "ToolTip": "C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Example.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-09T23:04:01.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "Circulo.cpp",
+              "DocumentMoniker": "C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Circulo.cpp",
+              "ToolTip": "C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Circulo.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-09T22:23:44.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Example1.h",
               "DocumentMoniker": "C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Example1.h",
               "ToolTip": "C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Example1.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-09T01:44:23.68Z",
+              "WhenOpened": "2024-04-09T22:06:49.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OpenGL.cpp",
+              "DocumentMoniker": "D:\\GitHub\\OpenGL\\OpenGL\\OpenGL.cpp",
+              "RelativeDocumentMoniker": "OpenGL\\OpenGL.cpp",
+              "ToolTip": "D:\\GitHub\\OpenGL\\OpenGL\\OpenGL.cpp",
+              "RelativeToolTip": "OpenGL\\OpenGL.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-09T22:00:01.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Example2.cpp",
+              "DocumentMoniker": "C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Example2.cpp",
+              "ToolTip": "C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Example2.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-09T22:03:23.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Circulo.cpp",
-              "DocumentMoniker": "C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Circulo.cpp",
-              "ToolTip": "C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Circulo.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-09T01:37:46.355Z",
+              "Title": "Example2.h",
+              "DocumentMoniker": "C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Example2.h",
+              "ToolTip": "C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Example2.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-09T22:03:02.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Example.cpp",
-              "DocumentMoniker": "D:\\GitHub\\OpenGL\\OpenGL\\Example.cpp",
-              "RelativeDocumentMoniker": "OpenGL\\Example.cpp",
-              "ToolTip": "D:\\GitHub\\OpenGL\\OpenGL\\Example.cpp",
-              "RelativeToolTip": "OpenGL\\Example.cpp",
+              "DocumentIndex": 6,
+              "Title": "Example1.cpp",
+              "DocumentMoniker": "C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Example1.cpp",
+              "ToolTip": "C:\\Users\\Marco\\Downloads\\OpenGL\\OpenGL\\Example1.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-03T23:44:29.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T01:51:42.079Z"
             }
           ]
         }
