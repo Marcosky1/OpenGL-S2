@@ -146,7 +146,6 @@
     <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Color.cpp" />
     <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Cuadrado.cpp" />
     <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Cubo.cpp" />
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Esfera.cpp" />
     <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example1.cpp" />
     <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example2.cpp" />
     <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example3.cpp" />
@@ -156,6 +155,7 @@
     <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Piramide.cpp" />
     <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Transform.cpp" />
     <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Triangulo.cpp" />
+    <ClCompile Include="Esfera.cpp" />
     <ClCompile Include="Example.cpp" />
     <ClCompile Include="OpenGL.cpp" />
   </ItemGroup>
@@ -164,7 +164,6 @@
     <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Color.h" />
     <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Cuadrado.h" />
     <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Cubo.h" />
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Esfera.h" />
     <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example1.h" />
     <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example2.h" />
     <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example3.h" />
@@ -174,6 +173,7 @@
     <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Piramide.h" />
     <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Transform.h" />
     <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Triangulo.h" />
+    <ClInclude Include="Esfera.h" />
     <ClInclude Include="Example.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>

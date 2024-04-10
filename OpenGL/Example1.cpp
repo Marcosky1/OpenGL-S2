@@ -1,70 +1,95 @@
 #include "Example1.h"
 #include "IncludeGL.h"
-
-Example1::Example1() {}
-
-void Example1::init() {
-    glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
-    glClearDepth(1.0);
-    gluLookAt(5, 5, 5, 0, 0, 0, 0, 1, 0);
-    glMatrixMode(GL_MODELVIEW);
+#include "Figura.h"
+Example1::Example1()
+{
 }
 
-void Example1::Render() {
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); 
-        DrawPoint();
-        DrawGrid(); 
-        DrawAxis();
-        
-    glFlush();
+
+void Example1::init()
+{
+	glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+	glClearDepth(1.0);
+	gluLookAt(5, 5, 5, 0, 0, 0, 0, 1, 0);
+	glMatrixMode(GL_MODELVIEW);
+	esfera.color.setColor(0.5, 1, 0.2);
+}
+void Example1::Render()
+{
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);	
+	    DrawGrid();
+	    DrawAxis();
+		esfera.Render();
+	glFlush();
+	
+}
+void Example1::DrawPoint()
+{
+
+	 
 }
 
-void Example1::DrawPoint() {
-    glBegin(GL_POINTS);
-    glVertex3f(0.0f, 1.0f, 3.0f);
-    glEnd();
+void Example1::DrawLine()
+{
+	 
 }
 
-void Example1::DrawLine() {}
 
 void Example1::DrawAxis() {
-    glLineWidth(4);
-    glColor4f(0.0f, 1.0f, 0.0f, 0.0f);
-    glBegin(GL_LINES);
-    glVertex3f(0.0f, 10.0f, 0.0f);
-    glVertex3f(0.0f, -10.0f, 0.0f);
-    glEnd();
-
-    glColor4f(1.0f, 0.0f, 0.0f, 0.0f);
-    glBegin(GL_LINES);
-    glVertex3f(10.0f, 0.0f, 0.0f);
-    glVertex3f(-10.0f, 0.0f, 0.0f);
-    glEnd();
-
-    glColor4f(0.0f, 0.0f, 1.0f, 0.0f);
-    glBegin(GL_LINES);
-    glVertex3f(0.0f, 0.0f, 10.0f);
-    glVertex3f(0.0f, 0.0f, -10.0f);
-    glEnd();
+	// Dibujar ejes de coordenadas
+	glLineWidth(2.0);
+	glBegin(GL_LINES);
+	// Eje X en rojo
+	glColor3f(1.0f, 0.0f, 0.0f);
+	glVertex3f(-10.0f, 0.0f, 0.0f);
+	glVertex3f(10.0f, 0.0f, 0.0f);
+	// Eje Y en verde
+	glColor3f(0.0f, 1.0f, 0.0f);
+	glVertex3f(0.0f, -10.0f, 0.0f);
+	glVertex3f(0.0f, 10.0f, 0.0f);
+	// Eje Z en azul
+	glColor3f(0.0f, 0.0f, 1.0f);
+	glVertex3f(0.0f, 0.0f, -10.0f);
+	glVertex3f(0.0f, 0.0f, 10.0f);
+	glEnd();
 }
 
-void Example1::KeyboardFunc(unsigned char key, int X, int Y) {}
-
-void Example1::Idle() {}
-
 void Example1::DrawGrid() {
-    // Dibujar líneas horizontales
-    for (float i = -10; i <= 10; ++i) {
-        glBegin(GL_LINES);
-        glVertex3f(-10, 0, i);
-        glVertex3f(10, 0, i);
-        glEnd();
-    }
-    // Dibujar líneas verticales
-    for (float i = -10; i <= 10; ++i) {
-        glBegin(GL_LINES);
-        glVertex3f(i, 0, -10);
-        glVertex3f(i, 0, 10);
-        glEnd();
-    }
+	glColor3f(0.5f, 0.5f, 0.5f);
+	for (float i = -20; i <= 20; ++i) {
+		glBegin(GL_LINES);
+		glVertex3f(i, 0, -20);
+		glVertex3f(i, 0, 20);
+		glEnd();
+
+		glBegin(GL_LINES);
+		glVertex3f(-20, 0, i);
+		glVertex3f(20, 0, i);
+		glEnd();
+	}
+}
+
+
+void Example1::KeyboardFunc(unsigned char key, int X, int Y)
+{
+	switch (key)
+	{
+	case '1' :
+		esfera.color.setColor(1, 1, 1);
+		break;
+	case '2':
+		esfera.color.setColor(0.5, 1, 0.5);
+		break;
+	case '3':
+		esfera.color.setColor(0.2, 0.5, 0.5);
+		break;
+	default:
+		break;
+	}
+}
+
+
+void Example1::Idle()
+{
+
 }

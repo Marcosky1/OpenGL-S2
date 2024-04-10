@@ -1,7 +1,14 @@
 #pragma once
+#include "Color.h"
+#include "Transform.h"
+class Figura
+{
+public :
+	Figura();
+	virtual void Render()=0;
+	Color color;
+	Transform  transform;
 
-class Figura {
-public:
-    virtual void dibujar() const = 0;
-    virtual ~Figura() {}
 };
+
+

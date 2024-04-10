@@ -4,7 +4,9 @@
 #include "IncludeGL.h"
 #include "Example.h"
 #include "Example1.h"
-
+ 
+ 
+#include <iostream>
 using namespace std;
 Example* _Example;
 void Render()

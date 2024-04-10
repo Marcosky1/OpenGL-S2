@@ -2,7 +2,6 @@ C:\Users\Marco\Downloads\OpenGL\OpenGL\Circulo.cpp;D:\GitHub\OpenGL\OpenGL\Debug
 C:\Users\Marco\Downloads\OpenGL\OpenGL\Color.cpp;D:\GitHub\OpenGL\OpenGL\Debug\Color.obj
 C:\Users\Marco\Downloads\OpenGL\OpenGL\Cuadrado.cpp;D:\GitHub\OpenGL\OpenGL\Debug\Cuadrado.obj
 C:\Users\Marco\Downloads\OpenGL\OpenGL\Cubo.cpp;D:\GitHub\OpenGL\OpenGL\Debug\Cubo.obj
-C:\Users\Marco\Downloads\OpenGL\OpenGL\Esfera.cpp;D:\GitHub\OpenGL\OpenGL\Debug\Esfera.obj
 C:\Users\Marco\Downloads\OpenGL\OpenGL\Example1.cpp;D:\GitHub\OpenGL\OpenGL\Debug\Example1.obj
 C:\Users\Marco\Downloads\OpenGL\OpenGL\Example2.cpp;D:\GitHub\OpenGL\OpenGL\Debug\Example2.obj
 C:\Users\Marco\Downloads\OpenGL\OpenGL\Example3.cpp;D:\GitHub\OpenGL\OpenGL\Debug\Example3.obj
@@ -12,5 +11,6 @@ C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura3D.cpp;D:\GitHub\OpenGL\OpenGL\Debu
 C:\Users\Marco\Downloads\OpenGL\OpenGL\Piramide.cpp;D:\GitHub\OpenGL\OpenGL\Debug\Piramide.obj
 C:\Users\Marco\Downloads\OpenGL\OpenGL\Transform.cpp;D:\GitHub\OpenGL\OpenGL\Debug\Transform.obj
 C:\Users\Marco\Downloads\OpenGL\OpenGL\Triangulo.cpp;D:\GitHub\OpenGL\OpenGL\Debug\Triangulo.obj
+D:\GitHub\OpenGL\OpenGL\Esfera.cpp;D:\GitHub\OpenGL\OpenGL\Debug\Esfera.obj
 D:\GitHub\OpenGL\OpenGL\Example.cpp;D:\GitHub\OpenGL\OpenGL\Debug\Example.obj
 D:\GitHub\OpenGL\OpenGL\OpenGL.cpp;D:\GitHub\OpenGL\OpenGL\Debug\OpenGL.obj
