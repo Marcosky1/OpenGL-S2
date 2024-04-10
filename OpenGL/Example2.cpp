@@ -2,6 +2,7 @@
 #include "IncludeGL.h"
 #include "Example2.h"
 #include <cmath>
+#include <iostream>
 
 Example2::Example2() : cameraX(0.0f), cameraY(1.0f), cameraZ(5.0f), cameraYaw(0.0f), cameraSpeed(0.1f) 
 {}
@@ -17,8 +18,8 @@ void Example2::init()
 void Example2::Render()
 {
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	DrawAxis();
 	DrawGrid();
+	DrawAxis();
 	glFlush();
 }
 void Example2::DrawPoint()
@@ -39,30 +40,30 @@ void Example2::DrawAxis() {
 	glBegin(GL_LINES);
 	// Eje X en rojo
 	glColor3f(1.0f, 0.0f, 0.0f);
-	glVertex3f(-10.0f, 0.0f, 0.0f);
-	glVertex3f(10.0f, 0.0f, 0.0f);
+	glVertex3f(-100.0f, 0.0f, 0.0f);
+	glVertex3f(100.0f, 0.0f, 0.0f);
 	// Eje Y en verde
 	glColor3f(0.0f, 1.0f, 0.0f);
-	glVertex3f(0.0f, -10.0f, 0.0f);
-	glVertex3f(0.0f, 10.0f, 0.0f);
+	glVertex3f(0.0f, -100.0f, 0.0f);
+	glVertex3f(0.0f, 100.0f, 0.0f);
 	// Eje Z en azul
 	glColor3f(0.0f, 0.0f, 1.0f);
-	glVertex3f(0.0f, 0.0f, -10.0f);
-	glVertex3f(0.0f, 0.0f, 10.0f);
+	glVertex3f(0.0f, 0.0f, -100.0f);
+	glVertex3f(0.0f, 0.0f, 100.0f);
 	glEnd();
 }
 
 void Example2::DrawGrid() {
 	glColor3f(0.5f, 0.5f, 0.5f);
-	for (float i = -20; i <= 20; ++i) {
+	for (float i = -100; i <= 100; ++i) {
 		glBegin(GL_LINES);
-		glVertex3f(i, 0, -20);
-		glVertex3f(i, 0, 20);
+		glVertex3f(i, 0, -100);
+		glVertex3f(i, 0, 100);
 		glEnd();
 
 		glBegin(GL_LINES);
-		glVertex3f(-20, 0, i);
-		glVertex3f(20, 0, i);
+		glVertex3f(-100, 0, i);
+		glVertex3f(100, 0, i);
 		glEnd();
 	}
 }
@@ -89,6 +90,7 @@ void Example2::KeyboardFunc(unsigned char key, int X, int Y)
 		break;
 	}
 	gluLookAt(cameraX, cameraY, cameraZ, cameraX + cos(cameraYaw), cameraY, cameraZ - sin(cameraYaw), 0, 1, 0);
+	std::cout << "Camera Position: (" << cameraX << ", " << cameraY << ", " << cameraZ << ")" << std::endl;
 }
 
 

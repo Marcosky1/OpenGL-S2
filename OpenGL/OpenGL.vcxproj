@@ -29,7 +29,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -142,40 +142,40 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Circulo.cpp" />
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Color.cpp" />
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Cuadrado.cpp" />
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Cubo.cpp" />
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example1.cpp" />
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example2.cpp" />
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example3.cpp" />
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura.cpp" />
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura2D.cpp" />
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura3D.cpp" />
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Piramide.cpp" />
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Transform.cpp" />
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Triangulo.cpp" />
+    <ClCompile Include="Circulo.cpp" />
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="Cuadrado.cpp" />
+    <ClCompile Include="Cubo.cpp" />
     <ClCompile Include="Esfera.cpp" />
     <ClCompile Include="Example.cpp" />
+    <ClCompile Include="Example1.cpp" />
+    <ClCompile Include="Example2.cpp" />
+    <ClCompile Include="Example3.cpp" />
+    <ClCompile Include="Figura.cpp" />
+    <ClCompile Include="Figura2D.cpp" />
+    <ClCompile Include="Figura3D.cpp" />
     <ClCompile Include="OpenGL.cpp" />
+    <ClCompile Include="Piramide.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="Triangulo.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Circulo.h" />
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Color.h" />
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Cuadrado.h" />
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Cubo.h" />
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example1.h" />
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example2.h" />
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example3.h" />
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura.h" />
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura2D.h" />
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura3D.h" />
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Piramide.h" />
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Transform.h" />
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Triangulo.h" />
+    <ClInclude Include="Circulo.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="Cuadrado.h" />
+    <ClInclude Include="Cubo.h" />
     <ClInclude Include="Esfera.h" />
     <ClInclude Include="Example.h" />
+    <ClInclude Include="Example1.h" />
+    <ClInclude Include="Example2.h" />
+    <ClInclude Include="Example3.h" />
+    <ClInclude Include="Figura.h" />
+    <ClInclude Include="Figura2D.h" />
+    <ClInclude Include="Figura3D.h" />
+    <ClInclude Include="Piramide.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="Triangulo.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="OpenGL.rc" />

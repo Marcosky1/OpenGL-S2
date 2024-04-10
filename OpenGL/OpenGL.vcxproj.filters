@@ -51,47 +51,47 @@
     <ClCompile Include="Example.cpp">
       <Filter>Archivos de origen\Example</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Circulo.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Color.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Cuadrado.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Cubo.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura2D.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura3D.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Piramide.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Transform.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Triangulo.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example1.cpp">
-      <Filter>Archivos de origen\Example</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example2.cpp">
-      <Filter>Archivos de origen\Example</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example3.cpp">
-      <Filter>Archivos de origen\Example</Filter>
-    </ClCompile>
     <ClCompile Include="Esfera.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Archivos de origen\Figura\Figura3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Example1.cpp">
+      <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Example2.cpp">
+      <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Figura.cpp">
+      <Filter>Archivos de origen\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Archivos de origen\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Archivos de origen\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Figura2D.cpp">
+      <Filter>Archivos de origen\Figura\Figura2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Figura3D.cpp">
+      <Filter>Archivos de origen\Figura\Figura3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Circulo.cpp">
+      <Filter>Archivos de origen\Figura\Figura2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cuadrado.cpp">
+      <Filter>Archivos de origen\Figura\Figura2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangulo.cpp">
+      <Filter>Archivos de origen\Figura\Figura2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cubo.cpp">
+      <Filter>Archivos de origen\Figura\Figura3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Piramide.cpp">
+      <Filter>Archivos de origen\Figura\Figura3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Example3.cpp">
+      <Filter>Archivos de origen\Example</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -101,47 +101,47 @@
     <ClInclude Include="Example.h">
       <Filter>Archivos de encabezado\Example</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Circulo.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Color.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Cuadrado.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Cubo.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura2D.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Figura3D.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Piramide.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Transform.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Triangulo.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example1.h">
-      <Filter>Archivos de encabezado\Example</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example2.h">
-      <Filter>Archivos de encabezado\Example</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\Marco\Downloads\OpenGL\OpenGL\Example3.h">
-      <Filter>Archivos de encabezado\Example</Filter>
-    </ClInclude>
     <ClInclude Include="Esfera.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Figura\Figura3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Example1.h">
+      <Filter>Archivos de encabezado\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Example2.h">
+      <Filter>Archivos de encabezado\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Figura.h">
+      <Filter>Archivos de encabezado\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Archivos de encabezado\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Archivos de encabezado\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Figura2D.h">
+      <Filter>Archivos de encabezado\Figura\Figura2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Figura3D.h">
+      <Filter>Archivos de encabezado\Figura\Figura3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Circulo.h">
+      <Filter>Archivos de encabezado\Figura\Figura2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cuadrado.h">
+      <Filter>Archivos de encabezado\Figura\Figura2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangulo.h">
+      <Filter>Archivos de encabezado\Figura\Figura2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cubo.h">
+      <Filter>Archivos de encabezado\Figura\Figura3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Piramide.h">
+      <Filter>Archivos de encabezado\Figura\Figura3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Example3.h">
+      <Filter>Archivos de encabezado\Example</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

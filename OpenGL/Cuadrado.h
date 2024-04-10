@@ -7,4 +7,3 @@ public :
     Cuadrado();
     virtual void Render() override;
 };
-
