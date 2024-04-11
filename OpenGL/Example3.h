@@ -1,25 +1,24 @@
 #pragma once
 #include "Example.h"
 #include "Esfera.h"
+#include "Camera.h" // Incluir la clase Camera
 
 class Example3 : public Example
 {
 public:
-	Example3();
+    Example3();
 
-	virtual void init()override;
-	virtual void Render()override;
-	virtual void KeyboardFunc(unsigned char key, int X, int Y)override;
-	virtual void Idle()override;
+    virtual void init() override;
+    virtual void Render() override;
+    virtual void KeyboardFunc(unsigned char key, int X, int Y) override;
+    virtual void Idle() override;
 
-	float cameraAngleY = 0.0f;
-	float cameraRadius = 5.0f;
+    Esfera esfera;
+    Camera camera; // Agregar una instancia de la clase Camera
 
-	Esfera esfera;
-
-	void DrawGrid();
-	void DrawAxis();
-	void DrawPoint();
-	void DrawLine();
+    void DrawGrid();
+    void DrawAxis();
+    void DrawPoint();
+    void DrawLine();
 };
 

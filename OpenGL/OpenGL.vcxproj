@@ -29,7 +29,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -142,6 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="Circulo.cpp" />
     <ClCompile Include="Color.cpp" />
     <ClCompile Include="Cuadrado.cpp" />
@@ -158,8 +159,10 @@
     <ClCompile Include="Piramide.cpp" />
     <ClCompile Include="Transform.cpp" />
     <ClCompile Include="Triangulo.cpp" />
+    <ClCompile Include="Vector3.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="Circulo.h" />
     <ClInclude Include="Color.h" />
     <ClInclude Include="Cuadrado.h" />
@@ -176,6 +179,7 @@
     <ClInclude Include="resource.h" />
     <ClInclude Include="Transform.h" />
     <ClInclude Include="Triangulo.h" />
+    <ClInclude Include="Vector3.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="OpenGL.rc" />

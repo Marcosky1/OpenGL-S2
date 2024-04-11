@@ -8,7 +8,8 @@ void Example3::init() {
     glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
     glClearDepth(1.0);
     glLoadIdentity();
-    gluLookAt(cameraRadius * sin(cameraAngleY), 5, cameraRadius * cos(cameraAngleY), 0, 0, 0, 0, 1, 0);
+    // Utilizar la cámara para establecer la vista
+    camera.UpdateCamera();
     glMatrixMode(GL_MODELVIEW);
     esfera.color.setColor(0.5f, 1.0f, 0.7f);
     glEnable(GL_LIGHTING);
@@ -66,14 +67,17 @@ void Example3::KeyboardFunc(unsigned char key, int X, int Y) {
     switch (key) {
     case 'w':
     case 'W':
-        cameraAngleY += 0.1f;
+        // Ajustar la posición de la cámara hacia arriba
+        camera.MoveForward();
         break;
     case 's':
     case 'S':
-        cameraAngleY -= 0.1f;
+        // Ajustar la posición de la cámara hacia abajo
+        camera.MoveBackward();
         break;
     }
-    gluLookAt(cameraRadius * sin(cameraAngleY), 5, cameraRadius * cos(cameraAngleY), 0, 0, 0, 0, 1, 0);
+
+    camera.UpdateCamera();
     glutPostRedisplay();
 }
 
