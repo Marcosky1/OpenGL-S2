@@ -12,6 +12,9 @@ public:
 	virtual void KeyboardFunc(unsigned char key, int X, int Y)override;
 	virtual void Idle()override;
 
+	float cameraAngleY = 0.0f;
+	float cameraRadius = 5.0f;
+
 	Esfera esfera;
 
 	void DrawGrid();
