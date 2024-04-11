@@ -147,6 +147,7 @@
     <ClCompile Include="Color.cpp" />
     <ClCompile Include="Cuadrado.cpp" />
     <ClCompile Include="Cubo.cpp" />
+    <ClCompile Include="DirectionLight.cpp" />
     <ClCompile Include="Esfera.cpp" />
     <ClCompile Include="Example.cpp" />
     <ClCompile Include="Example1.cpp" />
@@ -155,8 +156,12 @@
     <ClCompile Include="Figura.cpp" />
     <ClCompile Include="Figura2D.cpp" />
     <ClCompile Include="Figura3D.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="LightD.cpp" />
+    <ClCompile Include="LightP.cpp" />
     <ClCompile Include="OpenGL.cpp" />
     <ClCompile Include="Piramide.cpp" />
+    <ClCompile Include="PointLight.cpp" />
     <ClCompile Include="Transform.cpp" />
     <ClCompile Include="Triangulo.cpp" />
     <ClCompile Include="Vector3.cpp" />
@@ -167,6 +172,7 @@
     <ClInclude Include="Color.h" />
     <ClInclude Include="Cuadrado.h" />
     <ClInclude Include="Cubo.h" />
+    <ClInclude Include="DirectionLight.h" />
     <ClInclude Include="Esfera.h" />
     <ClInclude Include="Example.h" />
     <ClInclude Include="Example1.h" />
@@ -175,7 +181,11 @@
     <ClInclude Include="Figura.h" />
     <ClInclude Include="Figura2D.h" />
     <ClInclude Include="Figura3D.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="LightD.h" />
+    <ClInclude Include="LightP.h" />
     <ClInclude Include="Piramide.h" />
+    <ClInclude Include="PointLight.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Transform.h" />
     <ClInclude Include="Triangulo.h" />

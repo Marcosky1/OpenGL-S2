@@ -43,6 +43,12 @@
     <Filter Include="Archivos de origen\Utility">
       <UniqueIdentifier>{1911adc3-aae8-459b-9a22-ecba7e7b21d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\Luces">
+      <UniqueIdentifier>{f121c934-7d0f-4933-a37c-3b23849ebf9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Luces">
+      <UniqueIdentifier>{6176d221-e134-4c5d-aad4-164a8ee13670}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OpenGL.cpp">
@@ -99,6 +105,21 @@
     <ClCompile Include="Vector3.cpp">
       <Filter>Archivos de origen\Utility</Filter>
     </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Archivos de origen\Luces</Filter>
+    </ClCompile>
+    <ClCompile Include="LightD.cpp">
+      <Filter>Archivos de origen\Luces</Filter>
+    </ClCompile>
+    <ClCompile Include="LightP.cpp">
+      <Filter>Archivos de origen\Luces</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionLight.cpp">
+      <Filter>Archivos de origen\Luces</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Archivos de origen\Luces</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -154,6 +175,21 @@
     </ClInclude>
     <ClInclude Include="Vector3.h">
       <Filter>Archivos de encabezado\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Archivos de encabezado\Luces</Filter>
+    </ClInclude>
+    <ClInclude Include="LightD.h">
+      <Filter>Archivos de encabezado\Luces</Filter>
+    </ClInclude>
+    <ClInclude Include="LightP.h">
+      <Filter>Archivos de encabezado\Luces</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionLight.h">
+      <Filter>Archivos de encabezado\Luces</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Archivos de encabezado\Luces</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
