@@ -11,14 +11,10 @@ public:
     virtual void Idle() override;
 
 private:
-    void DrawPoint();
-    void DrawLine();
-    void DrawAxis();
-    void DrawGrid();
 
-    float cameraX, cameraY, cameraZ; // Posición de la cámara
-    float cameraYaw; // Ángulo de rotación de la cámara
-    float cameraSpeed; // Velocidad de movimiento de la cámara
+    float cameraX, cameraY, cameraZ; 
+    float cameraYaw;
+    float cameraSpeed;
 };
 
 

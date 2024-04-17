@@ -1,21 +1,2 @@
-﻿  Camera.cpp
-  Circulo.cpp
-  Cuadrado.cpp
-  Cubo.cpp
-  Esfera.cpp
-  Example.cpp
-  Example1.cpp
-C:\Users\AMD Ryzen\Documents\GitHub\OpenGL-S2\OpenGL\Example1.cpp(84,36): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-  Example2.cpp
-  Example3.cpp
-  Figura.cpp
-  Figura2D.cpp
-  Figura3D.cpp
-  OpenGL.cpp
-  Piramide.cpp
-  Transform.cpp
-  Triangulo.cpp
-  Vector3.cpp
-  Generando código...
-  LINK : no se encontró C:\Users\AMD Ryzen\Documents\GitHub\OpenGL-S2\Debug\OpenGL.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
+﻿  Example6.cpp
   OpenGL.vcxproj -> C:\Users\AMD Ryzen\Documents\GitHub\OpenGL-S2\Debug\OpenGL.exe

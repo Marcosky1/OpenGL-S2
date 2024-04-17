@@ -49,6 +49,12 @@
     <Filter Include="Archivos de origen\Luces">
       <UniqueIdentifier>{6176d221-e134-4c5d-aad4-164a8ee13670}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\Texturas">
+      <UniqueIdentifier>{7254f9e1-5ee8-4270-a84e-eba4b5693503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Texturas">
+      <UniqueIdentifier>{e01cd0b0-806c-4cec-a240-99fcb72dab97}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OpenGL.cpp">
@@ -120,6 +126,18 @@
     <ClCompile Include="PointLight.cpp">
       <Filter>Archivos de origen\Luces</Filter>
     </ClCompile>
+    <ClCompile Include="Example6.cpp">
+      <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Archivos de origen\Texturas</Filter>
+    </ClCompile>
+    <ClCompile Include="BMPTextureManager.cpp">
+      <Filter>Archivos de origen\Texturas</Filter>
+    </ClCompile>
+    <ClCompile Include="PNGTextureManager.cpp">
+      <Filter>Archivos de origen\Texturas</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -190,6 +208,18 @@
     </ClInclude>
     <ClInclude Include="PointLight.h">
       <Filter>Archivos de encabezado\Luces</Filter>
+    </ClInclude>
+    <ClInclude Include="Example6.h">
+      <Filter>Archivos de encabezado\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Archivos de encabezado\Texturas</Filter>
+    </ClInclude>
+    <ClInclude Include="BMPTextureManager.h">
+      <Filter>Archivos de encabezado\Texturas</Filter>
+    </ClInclude>
+    <ClInclude Include="PNGTextureManager.h">
+      <Filter>Archivos de encabezado\Texturas</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

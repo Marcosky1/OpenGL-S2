@@ -18,55 +18,11 @@ void Example2::init()
 void Example2::Render()
 {
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	DrawGrid();
-	DrawAxis();
+	DrawGrids();
+	DrawAxis(10);
 	glFlush();
 }
-void Example2::DrawPoint()
-{
 
-
-}
-
-void Example2::DrawLine()
-{
-
-}
-
-
-void Example2::DrawAxis() {
-	// Dibujar ejes de coordenadas
-	glLineWidth(2.0);
-	glBegin(GL_LINES);
-	// Eje X en rojo
-	glColor3f(1.0f, 0.0f, 0.0f);
-	glVertex3f(-100.0f, 0.0f, 0.0f);
-	glVertex3f(100.0f, 0.0f, 0.0f);
-	// Eje Y en verde
-	glColor3f(0.0f, 1.0f, 0.0f);
-	glVertex3f(0.0f, -100.0f, 0.0f);
-	glVertex3f(0.0f, 100.0f, 0.0f);
-	// Eje Z en azul
-	glColor3f(0.0f, 0.0f, 1.0f);
-	glVertex3f(0.0f, 0.0f, -100.0f);
-	glVertex3f(0.0f, 0.0f, 100.0f);
-	glEnd();
-}
-
-void Example2::DrawGrid() {
-	glColor3f(0.5f, 0.5f, 0.5f);
-	for (float i = -100; i <= 100; ++i) {
-		glBegin(GL_LINES);
-		glVertex3f(i, 0, -100);
-		glVertex3f(i, 0, 100);
-		glEnd();
-
-		glBegin(GL_LINES);
-		glVertex3f(-100, 0, i);
-		glVertex3f(100, 0, i);
-		glEnd();
-	}
-}
 
 
 void Example2::KeyboardFunc(unsigned char key, int X, int Y)
