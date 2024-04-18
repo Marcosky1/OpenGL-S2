@@ -22,7 +22,7 @@ void Example3::init() {
     glLoadIdentity();
     gluLookAt(5, 5, 5, 0, 0, 0, 0, 1, 0);
 
-    cubo.color.setColor(0.5f, 0.5f, 1);
+
 }
 
 void Example3::Render() {   

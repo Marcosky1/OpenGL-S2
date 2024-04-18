@@ -23,7 +23,7 @@ void Example4::init() {
     pointLight.init();
     pointLight.fuente = GL_LIGHT2;
 
-    esfera.color.setColor(0.5f, 1.0f, 0.2f);
+    
 }
 
 void Example4::Render() {

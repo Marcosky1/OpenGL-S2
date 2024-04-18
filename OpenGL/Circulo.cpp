@@ -8,7 +8,6 @@ Circulo::Circulo()
 
 void Circulo::Render()
 {
-    glColor3f(color.red, color.blue, color.green);
     glPushMatrix();
     glBegin(GL_TRIANGLE_FAN);
     glVertex2f(0.0f, 0.0f);

@@ -12,8 +12,6 @@ public:
 	virtual void Idle()override;
 
 	Cubo cubo;
-	void DrawGrid();
-	void DrawAxis();
 	void DrawPoint();
 	void DrawLine();
 };

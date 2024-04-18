@@ -8,7 +8,7 @@ Cuadrado::Cuadrado()
 
 void Cuadrado::Render()
 {
-    glColor3f(color.red, color.blue, color.green);
+    material->Enable();
     glPushMatrix();
     glBegin(GL_QUADS);
     glVertex3f(-1.0f, -1.0f, 0.0f);
@@ -17,4 +17,5 @@ void Cuadrado::Render()
     glVertex3f(-1.0f, 1.0f, 0.0f);
     glEnd();
     glPopMatrix();
+    material->Disable();
 }

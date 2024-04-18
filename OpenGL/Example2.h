@@ -13,8 +13,6 @@ public:
     Camera camera;
     void DrawPoint();
     void DrawLine();
-    void DrawAxis();
-    void DrawGrid();
 };
 
 

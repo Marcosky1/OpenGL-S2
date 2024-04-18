@@ -1,50 +1,48 @@
-d:\github\opengl\opengl\debug\vc143.pdb
-d:\github\opengl\opengl\debug\vc143.idb
-d:\github\opengl\opengl\debug\pointlight.obj
-d:\github\opengl\opengl\debug\piramide.obj
-d:\github\opengl\opengl\debug\opengl.obj
-d:\github\opengl\opengl\debug\lightp.obj
-d:\github\opengl\opengl\debug\lightd.obj
-d:\github\opengl\opengl\debug\light.obj
-d:\github\opengl\opengl\debug\figura3d.obj
-d:\github\opengl\opengl\debug\figura2d.obj
-d:\github\opengl\opengl\debug\figura.obj
-d:\github\opengl\opengl\debug\example3.obj
-d:\github\opengl\opengl\debug\example2.obj
-d:\github\opengl\opengl\debug\example1.obj
-d:\github\opengl\opengl\debug\example.obj
-d:\github\opengl\opengl\debug\esfera.obj
-d:\github\opengl\opengl\debug\directionlight.obj
-d:\github\opengl\opengl\debug\cubo.obj
-d:\github\opengl\opengl\debug\cuadrado.obj
-d:\github\opengl\opengl\debug\color.obj
-d:\github\opengl\opengl\debug\circulo.obj
-d:\github\opengl\opengl\debug\camera.obj
-d:\github\opengl\opengl\debug\vector3.obj
-d:\github\opengl\opengl\debug\triangulo.obj
-d:\github\opengl\opengl\debug\transform.obj
-d:\github\opengl\opengl\debug\translation.obj
-d:\github\opengl\opengl\debug\scaling.obj
-d:\github\opengl\opengl\debug\rotation.obj
-d:\github\opengl\debug\opengl.exe
-d:\github\opengl\debug\opengl.pdb
-d:\github\opengl\opengl\debug\opengl.res
-d:\github\opengl\opengl\debug\opengl.ilk
-d:\github\opengl\opengl\debug\poligono.obj
-d:\github\opengl\opengl\debug\punto3d.obj
-d:\github\opengl\opengl\debug\rectangulo.obj
-d:\github\opengl\opengl\debug\example1.obj.enc
-d:\github\opengl\opengl\debug\example2.obj.enc
-d:\github\opengl\opengl\debug\vc142.idb
-d:\github\opengl\opengl\debug\vc142.pdb
-d:\github\opengl\opengl\debug\opengl.tlog\cl.command.1.tlog
-d:\github\opengl\opengl\debug\opengl.tlog\cl.items.tlog
-d:\github\opengl\opengl\debug\opengl.tlog\cl.read.1.tlog
-d:\github\opengl\opengl\debug\opengl.tlog\cl.write.1.tlog
-d:\github\opengl\opengl\debug\opengl.tlog\link.command.1.tlog
-d:\github\opengl\opengl\debug\opengl.tlog\link.read.1.tlog
-d:\github\opengl\opengl\debug\opengl.tlog\link.secondary.1.tlog
-d:\github\opengl\opengl\debug\opengl.tlog\link.write.1.tlog
-d:\github\opengl\opengl\debug\opengl.tlog\rc.command.1.tlog
-d:\github\opengl\opengl\debug\opengl.tlog\rc.read.1.tlog
-d:\github\opengl\opengl\debug\opengl.tlog\rc.write.1.tlog
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\vc142.pdb
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\vc142.idb
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\lightp.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\lightd.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\light.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\figura3d.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\figura2d.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\figura.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\example6.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\example4.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\example3.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\example2.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\example1.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\example.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\esfera.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\directionlight.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\cubo.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\cuadrado.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\color.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\circulo.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\camera.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\bmptexturemanager.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\vector3.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\triangulo.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\translation.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\transform.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\texturemanager.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\spotlight.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\scaling.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\rotation.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\pointlight.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\pngtexturemanager.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\piramide.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\opengl.obj
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\material.obj
+c:\users\amd ryzen\documents\github\opengl-s2\debug\opengl.exe
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\opengl.ilk
+c:\users\amd ryzen\documents\github\opengl-s2\debug\opengl.pdb
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\opengl.res
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\opengl.tlog\cl.command.1.tlog
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\opengl.tlog\cl.read.1.tlog
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\opengl.tlog\cl.write.1.tlog
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\opengl.tlog\link.command.1.tlog
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\opengl.tlog\link.read.1.tlog
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\opengl.tlog\link.write.1.tlog
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\opengl.tlog\rc.command.1.tlog
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\opengl.tlog\rc.read.1.tlog
+c:\users\amd ryzen\documents\github\opengl-s2\opengl\debug\opengl.tlog\rc.write.1.tlog
