@@ -10,11 +10,12 @@ public:
     virtual void Render() override;
     virtual void KeyboardFunc(unsigned char key, int X, int Y) override;
     virtual void Idle() override;
-    Camera camera;
-    void DrawPoint();
-    void DrawLine();
-    void DrawAxis();
-    void DrawGrid();
+
+private:
+
+    float cameraX, cameraY, cameraZ; 
+    float cameraYaw;
+    float cameraSpeed;
 };
 
 

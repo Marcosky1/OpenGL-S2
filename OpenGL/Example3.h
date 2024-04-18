@@ -1,7 +1,8 @@
 
 #pragma once
 #include "Example.h"
-#include "Cubo.h"
+#include "Esfera.h"
+#include "Camera.h" 
 
 class Example3 : public Example {
 public:
@@ -12,7 +13,9 @@ public:
     virtual void KeyboardFunc(unsigned char key, int X, int Y) override;
     virtual void Idle() override;
 
-    void DrawGrid();
+    Esfera esfera;
+    Camera camera; 
+};
 
     float cubeX, cubeY, cubeZ; 
     float cubeAngle; 

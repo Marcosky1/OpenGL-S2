@@ -142,6 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BMPTextureManager.cpp" />
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="Circulo.cpp" />
     <ClCompile Include="Color.cpp" />
@@ -154,6 +155,7 @@
     <ClCompile Include="Example2.cpp" />
     <ClCompile Include="Example3.cpp" />
     <ClCompile Include="Example4.cpp" />
+    <ClCompile Include="Example6.cpp" />
     <ClCompile Include="Figura.cpp" />
     <ClCompile Include="Figura2D.cpp" />
     <ClCompile Include="Figura3D.cpp" />
@@ -162,16 +164,19 @@
     <ClCompile Include="LightP.cpp" />
     <ClCompile Include="OpenGL.cpp" />
     <ClCompile Include="Piramide.cpp" />
+    <ClCompile Include="PNGTextureManager.cpp" />
     <ClCompile Include="PointLight.cpp" />
     <ClCompile Include="Rotation.cpp" />
     <ClCompile Include="Scaling.cpp" />
     <ClCompile Include="SpotLight.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
     <ClCompile Include="Transform.cpp" />
     <ClCompile Include="Translation.cpp" />
     <ClCompile Include="Triangulo.cpp" />
     <ClCompile Include="Vector3.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BMPTextureManager.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="Circulo.h" />
     <ClInclude Include="Color.h" />
@@ -184,6 +189,7 @@
     <ClInclude Include="Example2.h" />
     <ClInclude Include="Example3.h" />
     <ClInclude Include="Example4.h" />
+    <ClInclude Include="Example6.h" />
     <ClInclude Include="Figura.h" />
     <ClInclude Include="Figura2D.h" />
     <ClInclude Include="Figura3D.h" />
@@ -191,11 +197,13 @@
     <ClInclude Include="LightD.h" />
     <ClInclude Include="LightP.h" />
     <ClInclude Include="Piramide.h" />
+    <ClInclude Include="PNGTextureManager.h" />
     <ClInclude Include="PointLight.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Rotation.h" />
     <ClInclude Include="Scaling.h" />
     <ClInclude Include="SpotLight.h" />
+    <ClInclude Include="TextureManager.h" />
     <ClInclude Include="Transform.h" />
     <ClInclude Include="Translation.h" />
     <ClInclude Include="Triangulo.h" />

@@ -1,2 +1,4 @@
 ﻿  Example4.cpp
-  OpenGL.vcxproj -> D:\GitHub\OpenGL\Debug\OpenGL.exe
+  OpenGL.vcxproj -> .\GitHubOpenGL\Debug\OpenGL.exe
+﻿  Example6.cpp
+  OpenGL.vcxproj -> .\GitHub\OpenGL-S2\Debug\OpenGL.exe
