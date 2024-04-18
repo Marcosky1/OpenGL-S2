@@ -3,6 +3,7 @@
 class DirectionLight :
     public LightD
 {
+public:
     virtual void init()override;
 };
 

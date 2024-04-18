@@ -4,14 +4,14 @@
 #include <cmath>
 #include <iostream>
 
-Example2::Example2() : cameraX(0.0f), cameraY(1.0f), cameraZ(5.0f), cameraYaw(0.0f), cameraSpeed(0.1f) 
+Example2::Example2() 
 {}
 
 void Example2::init()
 {
 	glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
 	glClearDepth(1.0);
-	gluLookAt(cameraX, cameraY, cameraZ, cameraX + cos(cameraYaw), cameraY, cameraZ - sin(cameraYaw), 0, 1, 0);
+	camera.UpdateCamera();
 	glMatrixMode(GL_MODELVIEW);
 
 }
@@ -40,58 +40,55 @@ void Example2::DrawAxis() {
 	glBegin(GL_LINES);
 	// Eje X en rojo
 	glColor3f(1.0f, 0.0f, 0.0f);
-	glVertex3f(-100.0f, 0.0f, 0.0f);
-	glVertex3f(100.0f, 0.0f, 0.0f);
+	glVertex3f(-20.0f, 0.0f, 0.0f);
+	glVertex3f(20.0f, 0.0f, 0.0f);
 	// Eje Y en verde
 	glColor3f(0.0f, 1.0f, 0.0f);
-	glVertex3f(0.0f, -100.0f, 0.0f);
-	glVertex3f(0.0f, 100.0f, 0.0f);
+	glVertex3f(0.0f, -20.0f, 0.0f);
+	glVertex3f(0.0f, 20.0f, 0.0f);
 	// Eje Z en azul
 	glColor3f(0.0f, 0.0f, 1.0f);
-	glVertex3f(0.0f, 0.0f, -100.0f);
-	glVertex3f(0.0f, 0.0f, 100.0f);
+	glVertex3f(0.0f, 0.0f, -20.0f);
+	glVertex3f(0.0f, 0.0f, 20.0f);
 	glEnd();
 }
 
 void Example2::DrawGrid() {
 	glColor3f(0.5f, 0.5f, 0.5f);
-	for (float i = -100; i <= 100; ++i) {
+	for (float i = -20; i <= 20; ++i) {
 		glBegin(GL_LINES);
-		glVertex3f(i, 0, -100);
-		glVertex3f(i, 0, 100);
+		glVertex3f(i, 0, -20);
+		glVertex3f(i, 0, 20);
 		glEnd();
 
 		glBegin(GL_LINES);
-		glVertex3f(-100, 0, i);
-		glVertex3f(100, 0, i);
+		glVertex3f(-20, 0, i);
+		glVertex3f(20, 0, i);
 		glEnd();
 	}
 }
 
-
-void Example2::KeyboardFunc(unsigned char key, int X, int Y)
-{
+void Example2::KeyboardFunc(unsigned char key, int X, int Y) {
 	switch (key) {
 	case 'w':
-		cameraX += cameraSpeed * cos(cameraYaw);
-		cameraZ -= cameraSpeed * sin(cameraYaw);
+		camera.MoveForward();
 		break;
 	case 's':
-		cameraX -= cameraSpeed * cos(cameraYaw);
-		cameraZ += cameraSpeed * sin(cameraYaw);
+		camera.MoveBackward();
 		break;
 	case 'a':
-		cameraX -= cameraSpeed * sin(cameraYaw);
-		cameraZ -= cameraSpeed * cos(cameraYaw);
+		camera.StrafeLeft();
 		break;
 	case 'd':
-		cameraX += cameraSpeed * sin(cameraYaw);
-		cameraZ += cameraSpeed * cos(cameraYaw);
+		camera.StrafeRight();
 		break;
 	}
-	gluLookAt(cameraX, cameraY, cameraZ, cameraX + cos(cameraYaw), cameraY, cameraZ - sin(cameraYaw), 0, 1, 0);
-	std::cout << "Camera Position: (" << cameraX << ", " << cameraY << ", " << cameraZ << ")" << std::endl;
+	camera.UpdateCamera();
+	std::cout << "Camera Position: (" << camera.getPosition().x << ", " << camera.getPosition().y << ")" << std::endl;
+	glutPostRedisplay();
 }
+
+
 
 
 void Example2::Idle()

@@ -1,6 +1,6 @@
-#include "Camera.h"
 #include "IncludeGL.h"
 #include <cmath>
+#include "Camera.h"
 
 Camera::Camera() : movementSpeed(0.1f) {
     position.SetPosition(2.5f, 2.5f, 2.5f);
@@ -24,4 +24,20 @@ void Camera::MoveForward() {
 void Camera::MoveBackward() {
     // Mueve la cámara hacia atrás en la dirección opuesta a la que está mirando
     position -= direction * movementSpeed;
+}
+
+void Camera::StrafeLeft() {
+    // Mueve la cámara hacia la izquierda en relación con su dirección hacia adelante
+    Vector3 left = Vector3(-direction.z, 0.0f, direction.x); // Calcula el vector perpendicular hacia la izquierda
+    position -= left * movementSpeed;
+}
+
+void Camera::StrafeRight() {
+    // Mueve la cámara hacia la derecha en relación con su dirección hacia adelante
+    Vector3 right = Vector3(-direction.z, 0.0f, direction.x); // Calcula el vector perpendicular hacia la derecha
+    position += right * movementSpeed;
+}
+
+Vector3 Camera::getPosition() {
+    return position;
 }

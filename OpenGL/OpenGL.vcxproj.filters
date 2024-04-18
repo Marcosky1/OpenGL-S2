@@ -49,6 +49,12 @@
     <Filter Include="Archivos de origen\Luces">
       <UniqueIdentifier>{6176d221-e134-4c5d-aad4-164a8ee13670}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\Transformacion">
+      <UniqueIdentifier>{0836aa49-87d4-4a0f-af22-b57af5007250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Transformacion">
+      <UniqueIdentifier>{3919cfe1-e571-418f-b319-0686cf14ee17}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OpenGL.cpp">
@@ -120,6 +126,21 @@
     <ClCompile Include="PointLight.cpp">
       <Filter>Archivos de origen\Luces</Filter>
     </ClCompile>
+    <ClCompile Include="Translation.cpp">
+      <Filter>Archivos de origen\Transformacion</Filter>
+    </ClCompile>
+    <ClCompile Include="Rotation.cpp">
+      <Filter>Archivos de origen\Transformacion</Filter>
+    </ClCompile>
+    <ClCompile Include="Scaling.cpp">
+      <Filter>Archivos de origen\Transformacion</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>Archivos de origen\Luces</Filter>
+    </ClCompile>
+    <ClCompile Include="Example4.cpp">
+      <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -190,6 +211,21 @@
     </ClInclude>
     <ClInclude Include="PointLight.h">
       <Filter>Archivos de encabezado\Luces</Filter>
+    </ClInclude>
+    <ClInclude Include="Translation.h">
+      <Filter>Archivos de encabezado\Transformacion</Filter>
+    </ClInclude>
+    <ClInclude Include="Rotation.h">
+      <Filter>Archivos de encabezado\Transformacion</Filter>
+    </ClInclude>
+    <ClInclude Include="Scaling.h">
+      <Filter>Archivos de encabezado\Transformacion</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>Archivos de encabezado\Luces</Filter>
+    </ClInclude>
+    <ClInclude Include="Example4.h">
+      <Filter>Archivos de encabezado\Example</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

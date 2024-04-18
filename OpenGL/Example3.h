@@ -1,10 +1,9 @@
+
 #pragma once
 #include "Example.h"
-#include "Esfera.h"
-#include "Camera.h" // Incluir la clase Camera
+#include "Cubo.h"
 
-class Example3 : public Example
-{
+class Example3 : public Example {
 public:
     Example3();
 
@@ -13,12 +12,10 @@ public:
     virtual void KeyboardFunc(unsigned char key, int X, int Y) override;
     virtual void Idle() override;
 
-    Esfera esfera;
-    Camera camera; // Agregar una instancia de la clase Camera
-
     void DrawGrid();
-    void DrawAxis();
-    void DrawPoint();
-    void DrawLine();
-};
 
+    float cubeX, cubeY, cubeZ; 
+    float cubeAngle; 
+    float cubeScale;
+    Cubo cubo;
+};
