@@ -1,3 +1,7 @@
-﻿  Example6.cpp
-C:\Users\AMD Ryzen\Documents\GitHub\OpenGL-S2\OpenGL\Example6.cpp(18,57): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+﻿  Esfera.cpp
+C:\Users\AMD Ryzen\Documents\GitHub\OpenGL-S2\OpenGL\Esfera.cpp(14,36): warning C4244: 'argumento': conversión de 'float' a 'GLint'; posible pérdida de datos
+C:\Users\AMD Ryzen\Documents\GitHub\OpenGL-S2\OpenGL\Esfera.cpp(14,29): warning C4244: 'argumento': conversión de 'float' a 'GLint'; posible pérdida de datos
+  Example7.cpp
+C:\Users\AMD Ryzen\Documents\GitHub\OpenGL-S2\OpenGL\Example7.cpp(17,57): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Generando código...
   OpenGL.vcxproj -> C:\Users\AMD Ryzen\Documents\GitHub\OpenGL-S2\Debug\OpenGL.exe

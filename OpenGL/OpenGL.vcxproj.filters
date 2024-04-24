@@ -162,6 +162,9 @@
     <ClCompile Include="Material.cpp">
       <Filter>Archivos de origen\Figura</Filter>
     </ClCompile>
+    <ClCompile Include="Example7.cpp">
+      <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -262,6 +265,9 @@
     </ClInclude>
     <ClInclude Include="Material.h">
       <Filter>Archivos de encabezado\Figura</Filter>
+    </ClInclude>
+    <ClInclude Include="Example7.h">
+      <Filter>Archivos de encabezado\Example</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

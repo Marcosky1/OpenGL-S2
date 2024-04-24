@@ -8,11 +8,10 @@ Esfera::Esfera()
 
 void Esfera::Render()
 {
-	// Dibujar una esfera
-	material->Enable();
-	glPushMatrix();
-	glTranslatef(0.0f, 0.0f, 0.0f);
-	glutSolidSphere(0.5, 20, 20);
-	glPopMatrix();
-	material->Disable();
+    material->Enable();
+    glPushMatrix();
+    glTranslatef(0.0f, 0.0f, 0.0f);
+    glutSolidSphere(radius, slice, stacks);
+    glPopMatrix();
+    material->Disable();
 }
