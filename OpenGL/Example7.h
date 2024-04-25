@@ -1,6 +1,7 @@
 #pragma once
 #include "Example.h"
 #include "Figura.h"
+#include "BMPTextureManager.h"
 
 class Example7 :
     public Example
@@ -13,6 +14,9 @@ public:
     virtual void KeyboardFunc(unsigned char key, int X, int Y)override;
     virtual void Idle() override;
 
-    Figura* cubo;
-};
+private:
 
+    Figura* cubo;
+    GLuint cubodisplayListID1;
+    GLuint ListadeCubodisplayListID2;
+};
