@@ -6,7 +6,9 @@ class Cubo :
 public :
     Cubo();
     virtual void Render() override;
-
+    virtual void RenderNomaterial() override;
+private:
+    void RenderCubo();
 };
 
 

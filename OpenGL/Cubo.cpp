@@ -9,9 +9,20 @@ Cubo::Cubo()
 void Cubo::Render()
 {
     material->Enable();
+    RenderCubo();
+    material->Disable();
+}
+
+void Cubo:: RenderNomaterial()
+{
+    RenderCubo();
+}
+
+void Cubo::RenderCubo()
+{
     glPushMatrix();
     glTranslatef(0.0f, 0.0f, 0.0f);
-    
+
     glBegin(GL_QUADS);
 
     // Cara frontal
@@ -53,5 +64,4 @@ void Cubo::Render()
     glEnd();
 
     glPopMatrix();
-    material->Disable();
 }

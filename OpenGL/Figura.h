@@ -9,6 +9,7 @@ protected:
 public :
 	Figura();
 	virtual void Render()=0;
+	virtual void RenderNomaterial();
 	virtual void initMaterail(const char* filename) ;
 	Transform  transform;
 	Material* GetMaterial();

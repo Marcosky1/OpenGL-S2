@@ -1,6 +1,6 @@
 #pragma once
 #include "Example.h"
-#include "Cubo.h"
+#include "Figura.h"
 class Example1: public Example
 {
 public:
@@ -11,7 +11,7 @@ public:
 	virtual void KeyboardFunc(unsigned char key, int X, int Y)override;
 	virtual void Idle()override;
 
-	Cubo cubo;
+	Figura* cubo;
 	void DrawPoint();
 	void DrawLine();
 };

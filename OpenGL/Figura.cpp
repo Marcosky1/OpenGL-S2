@@ -5,6 +5,11 @@ Figura::Figura() {
 
 }
 
+void Figura::RenderNomaterial()
+{
+	
+}
+
 void Figura::initMaterail(const char* filename)
 {
 	material = new Material();

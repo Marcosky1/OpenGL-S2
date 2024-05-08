@@ -1,6 +1,9 @@
 #include "Example1.h"
 #include "IncludeGL.h"
 #include "Figura.h"
+#include "Cubo.h"
+#include"BMPTextureManager.h"
+
 Example1::Example1()
 {
 }
@@ -12,14 +15,14 @@ void Example1::init()
 	glClearDepth(1.0);
 	gluLookAt(5, 5, 5, 0, 0, 0, 0, 1, 0);
 	glMatrixMode(GL_MODELVIEW);
-
+	cubo = new Cubo();
 }
 void Example1::Render()
 {
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);	
 	    DrawGrids();
-	    DrawAxis(10);
-		cubo.Render();
+	    DrawAxis(10);		
+		((Cubo*)cubo)->RenderNomaterial();
 	glFlush();
 	
 }
