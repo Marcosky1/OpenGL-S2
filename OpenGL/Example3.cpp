@@ -1,6 +1,7 @@
 
 #include "Example3.h"
 #include "IncludeGL.h"
+#include "Cubo.h"
 
 Example3::Example3() 
 {
@@ -21,14 +22,16 @@ void Example3::init() {
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
     gluLookAt(5, 5, 5, 0, 0, 0, 0, 1, 0);
-
-
+    cubo = new Cubo();
 }
 
 void Example3::Render() {   
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    DrawGrid();
-    cubo.Render();
+
+    DrawGrids();
+    DrawAxis(10);
+
+    ((Cubo*)cubo)->RenderNomaterial();
     // Traslación
     glTranslatef(cubeX, cubeY, cubeZ);
 
@@ -42,19 +45,12 @@ void Example3::Render() {
     glFlush();
 }
 
-void Example3::DrawGrid() {
-    glColor3f(0.5f, 0.5f, 0.5f);
-    for (float i = -20; i <= 20; ++i) {
-        glBegin(GL_LINES);
-        glVertex3f(i, 0, -20);
-        glVertex3f(i, 0, 20);
-        glEnd();
+void Example3::DrawPoint()
+{
+}
 
-        glBegin(GL_LINES);
-        glVertex3f(-20, 0, i);
-        glVertex3f(20, 0, i);
-        glEnd();
-    }
+void Example3::DrawLine()
+{
 }
 
 void Example3::KeyboardFunc(unsigned char key, int X, int Y) {
@@ -95,3 +91,4 @@ void Example3::KeyboardFunc(unsigned char key, int X, int Y) {
 }
 
 void Example3::Idle() {}
+

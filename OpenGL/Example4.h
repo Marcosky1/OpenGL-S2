@@ -13,10 +13,11 @@ public:
     virtual void KeyboardFunc(unsigned char key, int X, int Y) override;
     virtual void Idle() override;
 
-    void DrawGrid();
+    void DrawPoint();
+    void DrawLine();
 
     SpotLight spotLight;
     DirectionLight dirLight;
     PointLight pointLight;
-    Esfera esfera;
+    Figura* cubo;
 };

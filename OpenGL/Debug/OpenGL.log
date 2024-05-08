@@ -1,21 +1,2 @@
-﻿  Circulo.cpp
-  Cuadrado.cpp
-  Cubo.cpp
-  Esfera.cpp
-C:\Users\AMD Ryzen\Documents\GitHub\OpenGL-S2\OpenGL\Esfera.cpp(14,36): warning C4244: 'argumento': conversión de 'float' a 'GLint'; posible pérdida de datos
-C:\Users\AMD Ryzen\Documents\GitHub\OpenGL-S2\OpenGL\Esfera.cpp(14,29): warning C4244: 'argumento': conversión de 'float' a 'GLint'; posible pérdida de datos
-  Example1.cpp
-  Example3.cpp
-  Example4.cpp
-  Example6.cpp
-C:\Users\AMD Ryzen\Documents\GitHub\OpenGL-S2\OpenGL\Example6.cpp(18,57): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-  Example7.cpp
-C:\Users\AMD Ryzen\Documents\GitHub\OpenGL-S2\OpenGL\Example7.cpp(16,60): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-  Figura.cpp
-  Figura2D.cpp
-  Figura3D.cpp
-  OpenGL.cpp
-  Piramide.cpp
-  Triangulo.cpp
-  Generando código...
-  OpenGL.vcxproj -> C:\Users\AMD Ryzen\Documents\GitHub\OpenGL-S2\Debug\OpenGL.exe
+﻿  OpenGL.cpp
+  OpenGL.vcxproj -> C:\Users\USUARIO\Documents\GitHub\OpenGL-S2\Debug\OpenGL.exe

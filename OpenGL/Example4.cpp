@@ -23,7 +23,7 @@ void Example4::init() {
     pointLight.init();
     pointLight.fuente = GL_LIGHT2;
 
-    
+    cubo = new Esfera();
 }
 
 void Example4::Render() {
@@ -37,26 +37,12 @@ void Example4::Render() {
 
     glPushMatrix();
     glTranslatef(0.0f, 0.0f, -5.0f);
-    DrawGrid();
-    esfera.Render();
+    DrawGrids();
+    DrawAxis(10);
+    ((Esfera*)cubo)->RenderNomaterial();
     glPopMatrix();
 
     glFlush();
-}
-
-void Example4::DrawGrid() {
-    glColor3f(0.5f, 0.5f, 0.5f);
-    for (float i = -20; i <= 20; ++i) {
-        glBegin(GL_LINES);
-        glVertex3f(i, 0, -20);
-        glVertex3f(i, 0, 20);
-        glEnd();
-
-        glBegin(GL_LINES);
-        glVertex3f(-20, 0, i);
-        glVertex3f(20, 0, i);
-        glEnd();
-    }
 }
 
 void Example4::KeyboardFunc(unsigned char key, int X, int Y) {
@@ -81,3 +67,11 @@ void Example4::KeyboardFunc(unsigned char key, int X, int Y) {
 }
 
 void Example4::Idle() {}
+
+void Example4::DrawPoint()
+{
+}
+
+void Example4::DrawLine()
+{
+}
