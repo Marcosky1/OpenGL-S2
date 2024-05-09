@@ -9,13 +9,14 @@ void Example8::init() {
     glClearDepth(1.0);
     gluLookAt(5, 5, 5, 0, 0, 0, 0, 1, 0);
     glMatrixMode(GL_MODELVIEW);
+    cubo = new Cubo();
 }
 
 void Example8::Render() {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     DrawAxis(10);
-
+    cubo->RenderVertexArraySimple();
     glFlush();
 }
 

@@ -1,6 +1,22 @@
 #include "Esfera.h"
 #include "IncludeGL.h"
 
+void Esfera::init()
+{
+}
+
+void Esfera::RenderVertexArraySimple()
+{
+}
+
+void Esfera::RenderVertexArrayIndexado()
+{
+}
+
+void Esfera::RenderVertexArrayInstanciado()
+{
+}
+
 Esfera::Esfera()
 {
 
